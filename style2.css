@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #392620;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #222;
+    padding: 15px;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links {
+    list-style: none;
+
+    display: flex;
+}
+
+li+li {
+    margin-left: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+header a:hover {
+    color: #3b383889;
+    transition: color 3s;
+}
+
+.icones {
+    font-size: 25px;
+
+}
+
+.ic {
+    color: white;
+    margin-left: 10px;
+}
+
+.section1 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-size: 3.5rem;    
+}
+
+.home{
+    display: flex;
+}
+
+    
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.section1 h3{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.section1 span{
+    color: #d3ad7f;
+}
+
+.c-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.cards{
+    border: solid 1px rgba(255, 255, 255, .3);
+    padding: 2rem;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    width: 32rem;
+    height: 32rem;
+    margin-top: 3rem;
+    
+}
+
+.icones a{
+    color: #fff;
+    font-size: 2rem;
+    border: solid 1px #ccc;
+    padding: .8rem;
+}
+
+.icones a:hover{
+    background-color: bisque;
+}
+
+.c-card img{
+    margin-top: 2rem;
+}
+
+.title-produtos h3{
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.price{
+    font-size: 20px;
+    color: #fff;
+    margin-top: .9rem;
+}
+
+.price span{
+    text-decoration: line-through;
+}
+
+.star a{
+    color: rgb(255, 255, 0);
+    font-size: 1.5rem;
+}
+
+.section2 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    margin-top: 3rem;
+}
+
+.section2 span{
+    color: #d3ad7f;
+}
+
+.container-clientes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo{
+    border: solid 1px rgba( 255, 255, 255, .3);
+    padding: 3rem;
+    height: 28rem;
+    width: 28rem;
+    margin-top: 2rem;
+}
+
+.paragrafo img{
+    width: 85px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.paragrafo p{
+    color: #ccc;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.paragrafo h4{
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+:root {
+    --color-neutral-0: #0e0e0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
